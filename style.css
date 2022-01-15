@@ -199,7 +199,6 @@ footer{
 --- Media Queries ---
 --------------------- */
 @media only screen and (max-width: 688px) {
-
 .top-header{
         font-size: 16px;
         text-align: center;
@@ -263,10 +262,65 @@ padding: 0;
     grid-template-columns: repeat(4, 8%);
     justify-content: center;
 }
+.pagination a{
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.bonus-section{
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    margin: 0;
+}
+.bonus-section-left img{
+    width: 200%;
+}
+.bonus-section-right{
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
 }
 
 /* ----Tablet Devices----
 ----------------------- */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    
+
+.top-header{
+    width: 100%;
+    padding-left: 40px;
+    }
+.top-banner{
+    width: 100%;
+    margin: 0;
+    padding: 0 40px 0 40px;
+}
+
+    .collection{
+        row-gap: 40px;
+        padding-left: 0px;
+        padding-right: 00px;
+        margin-bottom: 00px;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+     
+        .social-icons{
+         font-size: 20px;
+         display: grid;
+         grid-template-columns: repeat(4, 6%);
+         justify-content: center;
+     }
+
+     /* Bonus Section Styles */
+
+.bonus-section{
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin: 0 0 20px 0;
+}
+
+
 }
