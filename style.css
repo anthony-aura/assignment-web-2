@@ -256,11 +256,6 @@ padding: 0;
        font-weight: 500;
    }
 
-   .social-icons{
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 8%);
-    justify-content: center;
 }
 .pagination a{
     width: 100%;
@@ -271,8 +266,9 @@ padding: 0;
 .bonus-section{
     display: flex;
     flex-direction: column;
-    padding-right: 0;
+    padding: 0 20px 0 20px;
     margin: 0;
+    margin-bottom: 20px;
 }
 .bonus-section-left img{
     width: 200%;
@@ -282,6 +278,14 @@ padding: 0;
     padding: 0;
     margin: 20px 0 0 0;
 }
+textarea{
+    width: 100%;
+}
+.social-icons{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 8%);
+    justify-content: center;
 }
 
 /* ----Tablet Devices----
