@@ -4,8 +4,7 @@
 /* Common Styles or Utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin: 0;
 }
 
 /* Top Banner Styles */
@@ -13,6 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .top-banner-left{
@@ -57,4 +58,23 @@ padding-left: 15px;
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+/* Footer Part */
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #00001a;
+    color: white;
+}
+
+.footer-head{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-text{
+    font-size: 16px;
+    color: #D9DBE1;
 }
