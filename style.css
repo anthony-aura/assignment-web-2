@@ -122,10 +122,36 @@ padding-left: 15px;
     flex: 1;
 }
 
+.bonus-section-left img{
+    width: 70%;
+}
+
 .bonus-section-right{
     flex: 1;
 }
 
+.bonus-section-right div>h2{
+    margin-top: 0;
+}
+
+.feedback-form input, textarea{
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 16px;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+#submit{
+    color: whitesmoke;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 24px;
+    border-radius: 41px;
+}
 
 /* Footer Part */
 footer{
