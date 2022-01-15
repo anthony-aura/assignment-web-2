@@ -7,13 +7,22 @@ body{
     margin: 0;
 }
 
+/* Top Header Styles */
+header{
+    padding-top: 80px;
+}
+.top-header{
+    padding-left: 120px;   
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
 /* Top Banner Styles */
 .top-banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 120px 120px;
 }
 
 .top-banner-left{
@@ -55,6 +64,11 @@ padding-left: 15px;
 }
 
 /* Product Collection Styles */
+.collection-title{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -74,7 +88,16 @@ padding-left: 15px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 0px 0px 40px #00000026;
+}
+
+.fa-star, .fa-star-half-alt{
+    color: #FB8200;
+}
+
+.product-info{
+    font-weight: 500;
+    color: #787885;
 }
 
 /* Footer Part */
@@ -95,3 +118,10 @@ footer{
     font-size: 16px;
     color: #D9DBE1;
 }
+
+/*--- Media Queries ---
+--------------------- */
+
+
+/* ----Tablet Devices----
+----------------------- */
