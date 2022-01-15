@@ -9,7 +9,7 @@ body{
 
 /* Top Header Styles */
 header{
-    padding-top: 80px;
+    padding-top: 20px;
 }
 .top-header{
     padding-left: 120px;   
@@ -55,12 +55,14 @@ padding-left: 15px;
 }
 
 .top-banner-right{
+    display: flex;
+    justify-content: center;
     flex: 1;
 }
 
 
 .top-banner-right img{
-    margin-left: 100px;
+
 }
 
 /* Product Collection Styles */
@@ -121,7 +123,12 @@ footer{
 
 /*--- Media Queries ---
 --------------------- */
-
+@media only screen and (max-width: 688px) {
+    
+}
 
 /* ----Tablet Devices----
 ----------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    
+}
