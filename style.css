@@ -124,7 +124,51 @@ footer{
 /*--- Media Queries ---
 --------------------- */
 @media only screen and (max-width: 688px) {
-   .collection{
+
+.top-header{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0;
+    }
+.top-banner{
+flex-direction: column;
+padding: 0;
+}
+.top-banner-left{
+    order: 2;
+    width: 100%;
+}
+.top-banner-right{
+    order: 1;
+    width: 100%;
+}
+.top-banner-right img{
+    width: 60%;
+}
+.top-banner-heading{
+    font-size: 28px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+.top-banner-text{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
+.top-banner-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-banner-button{
+    font-size: 16px;
+    font-weight: 500;
+}
+.fas.fa-arrow-right{
+    font-size: 14px;
+    }
+.collection{
     row-gap: 20px;
     padding-left: 0px;
     padding-right: 00px;
@@ -132,6 +176,12 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
    }
+   .collection-title{
+       padding-top: 40px;
+       font-size: 16px;
+       font-weight: 500;
+   }
+
 }
 
 /* ----Tablet Devices----
