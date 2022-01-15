@@ -79,7 +79,6 @@ padding-left: 15px;
     row-gap: 80px;
     padding-left: 300px;
     padding-right: 300px;
-    margin-bottom: 100px;
 }
 
 .product{
@@ -102,6 +101,18 @@ padding-left: 15px;
     color: #787885;
 }
 
+.pagination a{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-right: 350px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    color: #E02C6D;
+}
+
 /* Footer Part */
 footer{
     padding-top: 20px;
@@ -121,7 +132,15 @@ footer{
     color: #D9DBE1;
 }
 
-/*--- Media Queries ---
+.social-icons{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 3%);
+    justify-content: center;
+}
+
+/*-----------------------
+--- Media Queries ---
 --------------------- */
 @media only screen and (max-width: 688px) {
 
